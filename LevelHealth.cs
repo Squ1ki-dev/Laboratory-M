@@ -8,10 +8,10 @@ using UnityEngine.SceneManagement;
 public class LevelHealth : MonoBehaviour
 {
     [HideInInspector]
-    public int levelHealth = 100;
+    [SerializeField] private int levelHealth = 100;
 
     [Header ("Level Health")]
-    public Text myText;
+    [SerializeField] private Text myText;
 
     void Update()
     {
