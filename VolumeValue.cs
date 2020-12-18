@@ -8,7 +8,8 @@ public class VolumeValue : MonoBehaviour
     [SerializeField]
     private float musicVolume;
 
-    public AudioSource AudioSource;
+    [SerializeField] 
+    private AudioSource AudioSource;
 
     public void Start()
     {
