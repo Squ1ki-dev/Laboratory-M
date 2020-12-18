@@ -8,7 +8,7 @@ public class SubText : MonoBehaviour {
 
 	[SerializeField]private Text subtext;
 	[SerializeField]private AudioSource audioSource;
-    [SerializeField] private AudioClip dialogClip;
+    	[SerializeField] private AudioClip dialogClip;
 
 	[SerializeField] private float NextText;
 	[SerializeField] private int endVoice;
