@@ -10,15 +10,15 @@ public enum PauseType
 
 public class PauseMenu : MonoBehaviour
 {
-    public PauseType buttonType;
-    public KeyCode pauseButton;
-    public GameObject pausePanel;
-    public GameObject settingsPanel;
+    [SerializeField] private PauseType buttonType;
+    [SerializeField] private KeyCode pauseButton;
+    [SerializeField] private GameObject pausePanel;
+    [SerializeField] private GameObject settingsPanel;
     
-    public bool useSettingsPanel;
-    public bool controlCursor;
-    public bool showMenuCursor;
-    public bool hideGameCursor;
+    [SerializeField] private bool useSettingsPanel;
+    [SerializeField] private bool controlCursor;
+    [SerializeField] private bool showMenuCursor;
+    [SerializeField] private bool hideGameCursor;
 
     public bool isPaused;
 
