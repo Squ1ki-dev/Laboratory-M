@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class ButtonManager : MonoBehaviour 
 {
-	public AudioSource myFx;
-	public AudioClip hoverFx;
-	public AudioClip clickFx;
+	[SerializeField] private AudioSource myFx;
+	[SerializeField] private AudioClip hoverFx;
+	[SerializeField] private AudioClip clickFx;
 
 	public void ExitGame () {
 		Application.Quit();
